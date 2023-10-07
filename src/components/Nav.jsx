@@ -4,6 +4,7 @@ import { navLinks } from "../constants";
 import { useState, useEffect } from "react";
 import { motion as m } from "framer-motion";
 import { navVariants } from "../utils/motion";
+import Authontication from "./Authontication";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
@@ -53,8 +54,11 @@ const Nav = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
-        <li className="" onClick={() => togglePopup()}>
-          Sign IN
+        <li
+          className={`font-poppins font-normal cursor-pointer text-[17px] mr-12 text-white hover:text-sky-400`}
+          onClick={() => togglePopup()}
+        >
+          Sign in
         </li>
       </ul>
 
@@ -78,20 +82,29 @@ const Nav = () => {
               >
                 <a href={`#${nav.id}`} onClick={() => setToggle()}>
                   {nav.title}
-                  Sign
+                
                 </a>
               </li>
             ))}
+               <li
+          className={`font-poppins font-normal cuesor-pointer text-[16px] text-white mr-10 p-10`}
+          onClick={() => togglePopup()}
+        >
+          Sign in
+        </li>
           </ul>
         </div>
       </div>
 
       {isPopupOpen && (
-        <div
-          className="fixed inset-0 bg-[black] bg-opacity-50 flex justify-center items-center "
-          onClick={togglePopup}
-        >
-          <h1>ushuifh hkkki</h1>
+        <div className="fixed inset-0 bg-[black] bg-opacity-80 flex justify-center items-center ">
+           <div
+            className=" absolute md:right-[35rem] top-[9rem] text-white"
+            onClick={togglePopup}
+          >
+            <img src={close} className=" cursor-pointer" alt="" />
+          </div>
+          <Authontication />
         </div>
       )}
     </m.nav>

@@ -1,21 +1,7 @@
-import airbnb from "./airbnb.png";
-import bill from "./bill.png";
-import binance from "./binance.png";
-import card from "./card.png";
-import coinbase from "./coinbase.png";
-import dropbox from "./dropbox.png";
-import logo from "./logo.svg";
-import quotes from "./quotes.svg";
-import robot from "./robot.png";
 import send from "./Send.svg";
-import shield from "./Shield.svg";
-import star from "./Star.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import google from "./google.svg";
-import apple from "./apple.svg";
-import arrowUp from "./arrow-up.svg";
-import discount from "./Discount.svg";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -23,41 +9,39 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import HeroSection2 from './HeroSection2.png';
-import HeroSection from './HeroSection.png'
 import Logo_Z from './epiclogo.svg';
-import Spider_G1 from './Spider_G1.png';
-import Wonder_Women from './sUBi_01.png'
-import Warcarft from './sUBi_02.png'
-import BatGirl from './sUBi_03.png'
-import Thor from './sUBi_04.png'
-import Ocrk1 from './Ocrk1.png'
-import bM from './batmanM.jpg'
 import hotelbg from './bgknd.png'
 import cardone from './cardone.png'
+import cardone1 from './IMgx-01.png'
+import cardone2 from './IMgx-04.png'
+import cardone3 from './IMgx-05.png'
+import p1 from './p1.jpg';
+import p2 from './p2.jpg';
+import p3 from './p3.jpg';
+import p4 from './p4.jpg';
+import p5 from './p5.jpg';
+import p6 from './p6.jpg';
+import p7 from './p7.jpg';
+import p8 from './p8.jpg';
+import p9 from './p9.jpg';
+import p10 from './p10.jpg';
+import p11 from './11.jpg';
+import p12 from './12.jpg';
+import p13 from './p13.jpg';
+import p14 from './p14.jpg';
+import search from './search.svg'
 
 
 export {
-  airbnb,
   hotelbg,
   cardone,
-  bill,
-  binance,
-  card,
-  coinbase,
-  dropbox,
-  logo,
-  quotes,
-  robot,
+  cardone1,
+  cardone2,
+  cardone3,
   send,
-  shield,
-  star,
   menu,
   close,
   google,
-  apple,
-  arrowUp,
-  discount,
   facebook,
   instagram,
   linkedin,
@@ -65,15 +49,28 @@ export {
   people01,
   people02,
   people03,
-  HeroSection2,
   Logo_Z,
-  Spider_G1,
-  Wonder_Women,
-  Warcarft,
-  BatGirl,
-  Thor,
-  Ocrk1,
-  bM,
-  HeroSection
- 
+  p1,
+  p2,
+  p3,
+  p4,
+  p5,
+  p6,
+  p7,
+  p8,
+  p9,
+  p10,
+  p11,
+  p12,
+  p13,
+  p14,
+  search,
+
+
+
+
+
+
+
+
 };

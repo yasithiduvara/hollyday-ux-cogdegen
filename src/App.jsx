@@ -7,6 +7,8 @@ import Search from './components/Search'
 import CardOne from './components/CardOne'
 import Commenets from './components/Commenets'
 import About from './components/About'
+import ContactForm from './components/ContactForm '
+import Map from './components/Map'
 
 const App = () => {
   return (
@@ -18,6 +20,8 @@ const App = () => {
      <Hottels />
      <Commenets />
      <About />
+     <Map/>
+     <ContactForm />
      {/* <ImageGalary/> */}
    
     <Footer />

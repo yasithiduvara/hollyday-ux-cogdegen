@@ -13,7 +13,8 @@ export default {
     extend: {},
     fontFamily: {
       poppins: ["Poppins", "sans-serif"],
-      Montserrat:['Montserrat', 'sans-serif']
+      Montserrat:['Montserrat', 'sans-serif'],
+      Abril:['Abril Fatface', 'cursive']
     },
   },
   plugins: [

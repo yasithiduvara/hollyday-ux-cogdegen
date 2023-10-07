@@ -1,22 +1,27 @@
 import React, { useState } from 'react';
 
-const ImageGalary = () => {
-  const images = [
-    'https://via.placeholder.com/300x200?text=Image+1',
-    'https://via.placeholder.com/300x200?text=Image+2',
-    'https://via.placeholder.com/300x200?text=Image+3',
-    'https://via.placeholder.com/300x200?text=Image+4',
-  ];
+
+
+
+const ImageGalary = (props) => {
+  const images1 = props.images;
+  console.log("Images: ",images1);
+  // const images = [
+  //   'https://via.placeholder.com/300x200?text=Image+1',
+  //   'https://via.placeholder.com/300x200?text=Image+2',
+  //   'https://via.placeholder.com/300x200?text=Image+3',
+  //   'https://via.placeholder.com/300x200?text=Image+4',
+  // ];
 
   const [currentImage, setCurrentImage] = useState(0);
 
   const nextImage = () => {
-    setCurrentImage((prevImage) => (prevImage + 1) % images.length);
+    setCurrentImage((prevImage) => (prevImage + 1) % images1.length);
   };
 
   const prevImage = () => {
     setCurrentImage((prevImage) =>
-      prevImage === 0 ? images.length - 1 : prevImage - 1
+      prevImage === 0 ? images1.length - 1 : prevImage - 1
     );
   };
 
@@ -24,7 +29,7 @@ const ImageGalary = () => {
   
       <div className="relative w-full max-w-xl ">
         <img
-          src={images[currentImage]}
+          src={images1[currentImage]}
           alt={`Image ${currentImage + 1}`}
           className="w-full h-full object-cover rounded-lg shadow-lg transition-opacity duration-500 ease-in-out hover:opacity-90"
           key={currentImage} // Add a key to the image for smoother transitions
