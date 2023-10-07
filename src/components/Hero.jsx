@@ -21,7 +21,7 @@ const Hero = () => {
   }, []);
 
   return (
-    <div className="relative h-screen">
+    <div className="relative h-screen" id="home">
       {/* <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 `}>
             <div className= 'absolute z-[1] w-[40%] h-[35%] top-0 pink__gradient'/>
             <div className='absolute z-[1] w-[50%] h-[50%] top-0 pink__gradien bottom-20 blue__gradient'/>

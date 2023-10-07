@@ -6,7 +6,7 @@ const About = () => {
         
         <div
         
-          whileInView="show" className='text-center'>
+          whileInView="show" className='text-center' id='about'>
             
             <h1 className='md:text-[5em] text-[3em] items-center mb-4 font-Abril text-[#013320] leading-tight'>
                Who we are?

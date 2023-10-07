@@ -33,7 +33,7 @@ const Hottels = () => {
   const images6 = [`${p13}`, `${p14}`];
 
   return (
-    <section className="section__container popular__container">
+    <section className="section__container popular__container" id="packages">
       <h2 className="md:text-[4em] text-[2em] items-center mb-4 font-Abril text-[#013320] leading-tight text-center ">Popular Hotels</h2>
       <div className="popular__grid">
         <div className="popular__card">
