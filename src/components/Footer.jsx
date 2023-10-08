@@ -28,19 +28,21 @@ const Footer = () => {
 
         </nav>
 
-        <div className='flex justify-center pt-8'>
-        <img src={Logo_Z} className='md:w-[250px] md:h-[32px] w-[100%] h-[100%]'/>
-        </div>
+  
 
-        <div className='flex justify-center'>
+        <div className='flex justify-center pt-3'>
 
-        <img src={facebook} className='w-6 sm:m-9 m-3' alt="" />
-         <img src={twitter} className='w-6 sm:m-9 m-3' alt="" />
-         <img src={instagram} className='w-6 sm:m-9 m-3' alt="" />
-         <img src={linkedin} className='w-6 sm:m-9 m-3' alt="" />
+       <a href=""> <img src={facebook} className='w-6 sm:m-9 m-3' alt="" /></a> 
+         <a href=""><img src={twitter} className='w-6 sm:m-9 m-3' alt="" /></a>
+         <a href=""><img src={instagram} className='w-6 sm:m-9 m-3' alt="" /></a>
+        <a href=""><img src={linkedin} className='w-6 sm:m-9 m-3' alt="" /></a> 
    
         </div>
-
+        <a href=""> 
+        <div className='flex justify-center pt-8'>
+      <img src={Logo_Z} className='md:w-[250px] md:h-[32px] w-[50%]'/>
+        </div>
+        </a>
     </div>
  
 

@@ -32,7 +32,7 @@ const Search = () => {
       </div>
       <div className="form__group">
         <div className="input__group">
-          <input type="text" />
+          <input type="text"  />
           <label>Check Out</label>
         </div>
         <p>Add date</p>

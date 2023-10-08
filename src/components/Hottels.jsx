@@ -482,7 +482,7 @@ const Hottels = () => {
                 <p>Add date</p>
               </div>
 
-              <button className=" bg-green-400 w-100 hover:bg-green-800 hover:text-white">
+              <button className=" bg-green-400 w-100 hover:bg-green-800 hover:text-white rounded-lg">
                <h2 className="hover:text-white"  onClick={togglePopup}>BOOK NOW</h2>
               </button>
             </form>

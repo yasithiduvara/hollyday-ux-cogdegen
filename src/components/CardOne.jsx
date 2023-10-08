@@ -29,7 +29,7 @@ const CardOne = () => {
         <h1 className="md:text-[5em] text-[3em] items-center text-[#013320]  font-Abril leading-tight ">
           Awesome
         </h1>
-        <h1 className="md:text-[5em] text-[3em] items-center text-[#013320] font-Abril  leading-tight pl-8 ml-8">
+        <h1 className="md:text-[5em] text-[3em] items-center text-[#013320] font-Abril  leading-tight sm:pl-8 sm:ml-8 pl-6">
           Countries
         </h1>
 
