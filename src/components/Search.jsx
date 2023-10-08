@@ -7,7 +7,7 @@ const Search = () => {
 
 
   return (
-    <div className="booking__container">
+    <div className="booking__container ">
     <form  className=' font-Montserrat text-green-900 font-[400]'>
       <div className="form__group">
         <div className="input__group">

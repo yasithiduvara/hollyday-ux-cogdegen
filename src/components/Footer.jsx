@@ -32,12 +32,12 @@ const Footer = () => {
         <img src={Logo_Z} className='md:w-[250px] md:h-[32px] w-[100%] h-[100%]'/>
         </div>
 
-        <div className=' sm:flex justify-center'>
+        <div className='flex justify-center'>
 
-        <img src={facebook} className='w-6 m-9' alt="" />
-         <img src={twitter} className='w-6 m-9' alt="" />
-         <img src={instagram} className='w-6 m-9' alt="" />
-         <img src={linkedin} className='w-6 m-9' alt="" />
+        <img src={facebook} className='w-6 sm:m-9 m-3' alt="" />
+         <img src={twitter} className='w-6 sm:m-9 m-3' alt="" />
+         <img src={instagram} className='w-6 sm:m-9 m-3' alt="" />
+         <img src={linkedin} className='w-6 sm:m-9 m-3' alt="" />
    
         </div>
 

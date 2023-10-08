@@ -43,7 +43,7 @@ const Nav = () => {
         scrolling ? "scroll-background" : ""
       }  w-full fixed flex p-5 justify-between items-center navbar z-10 ease-in-0.5 translate`}
     >
-      <img src={Logo_Z} className="md:w-[250px] md:h-[32px] w-[200px]" />
+      <a href="/"><img src={Logo_Z} className="md:w-[250px] md:h-[32px] w-[200px]" /></a>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
