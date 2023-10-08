@@ -452,7 +452,7 @@ const Hottels = () => {
       {isPopupOpen && (
         <div className="fixed inset-0 bg-[black] bg-opacity-80 flex justify-center items-center">
           <div
-            className=" absolute md:right-[35rem] top-[14rem] text-white"
+            className=" absolute md:right-[35rem] top-[8rem] text-white"
             onClick={togglePopup}
           >
             <img src={close} className=" cursor-pointer" alt="" />
@@ -483,7 +483,7 @@ const Hottels = () => {
               </div>
 
               <button className=" bg-green-400 w-100 hover:bg-green-800 hover:text-white">
-               <h2 className="hover:text-white">BOOK NOW</h2>
+               <h2 className="hover:text-white"  onClick={togglePopup}>BOOK NOW</h2>
               </button>
             </form>
           </div>
