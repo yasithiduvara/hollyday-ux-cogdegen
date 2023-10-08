@@ -24,7 +24,7 @@ const CardOne = () => {
   }, []);
   
   return (
-    <div className="p-[5rem] sm:pt-[7rem] pt-[11rem] sm:flex justify-evenly  " >
+    <div className="p-[5rem] sm:pt-[7rem] pt-[11rem] sm:flex justify-evenly items-center " >
       <div className=" flex-col items-start">
         <h1 className="md:text-[5em] text-[3em] items-center text-[#013320]  font-Abril leading-tight ">
           Awesome

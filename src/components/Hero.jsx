@@ -34,7 +34,7 @@ const Hero = () => {
         className="absolute inset-0 md:h-full md:w-full md:object-cover object-cover h-full w-full"
       />
 
-      <div className="absolute inset-0 flex items-center justify-center p-12 mt-12">
+      <div className="absolute inset-0 flex items-center justify-center sm:p-12 sm:mt-12 sm:mb-0 mb-12">
         <div
           variants={textContainer}
           initial="hidden"
