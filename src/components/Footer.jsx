@@ -17,7 +17,7 @@ const Footer = () => {
             <ul className='list-none flex flex-col md:flex-row justify-center items-center flex-1'>
 
                 {navLinks.map((nav,index)=>(
-                    <li key={nav.id} className='font-poppins font-normal cursor-pointer text-[19px]  text-white'>
+                    <li key={nav.id} className='font-poppins font-normal cursor-pointer text-[19px] sm:mr-[4em] text-white'>
 
                         <a href={'#${nav.id}'}>{nav.title}</a>
                             

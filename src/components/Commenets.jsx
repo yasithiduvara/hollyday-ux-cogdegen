@@ -6,7 +6,8 @@ const Commenets = () => {
     <div>
       <section className="client">
         <div className="section__container client__container">
-          <h2 className="section__header">What our client say</h2>
+          {/* <h2 className="section__header">What our client say</h2> */}
+          <h2 className="text-[2rem] text-center font-Abril text-[#013320]">What our client say</h2>
           <div className="client__grid">
             <div className="client__card">
               <img src={people01} alt="client" />

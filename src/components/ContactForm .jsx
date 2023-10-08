@@ -2,7 +2,8 @@ import React from 'react';
 
 const ContactForm = () => {
   return (
-    <div className="bg-white w-full p-6 shadow-lg rounded-lg " id='contact'>
+ <div className=' flex sm:justify-center'>
+   <div className="bg-white sm:w-[50%] w-full p-6  rounded-lg  " id='contact'>
       <h2 className="md:text-[4em] text-[2em] items-center mb-4 font-Abril text-[#013320] leading-tight text-center">Contact Us</h2>
       <form className='p-2'>
         <div className="mb-4">
@@ -58,12 +59,13 @@ const ContactForm = () => {
         </div>
         <button
           type="submit"
-          className="bg-green-500 text-white font-semibold py-2 px-4 rounded-md hover:bg-blue-600"
+          className="bg-[#1e6f34] text-white font-semibold py-2 px-4 rounded-md hover:bg-[#235731]"
         >
           Submit
         </button>
       </form>
     </div>
+ </div>
   );
 };
 
