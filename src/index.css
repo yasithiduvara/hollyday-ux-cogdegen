@@ -503,8 +503,12 @@ img {
 
 @media (width < 900px) {
   .booking__container {
- 
-    bottom: -11rem;
+    position: absolute;
+    bottom: -10rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 2rem;
+    border-radius: 2rem;
   
   }
 
