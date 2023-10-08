@@ -9,6 +9,7 @@ import Commenets from './components/Commenets'
 import About from './components/About'
 import ContactForm from './components/ContactForm '
 import Map from './components/Map'
+import Calander from './components/Calander'
 
 const App = () => {
   return (
@@ -22,8 +23,6 @@ const App = () => {
      <About />
      <Map/>
      <ContactForm />
-     {/* <ImageGalary/> */}
-   
     <Footer />
 
     </div>
